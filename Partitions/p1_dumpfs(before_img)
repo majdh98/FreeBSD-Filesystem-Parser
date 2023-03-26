@@ -1,0 +1,82 @@
+magic	19540119 (UFS2)
+last mounted time	Sun May 15 11:32:38 2022
+last modified time	Sun May 15 11:37:42 2022
+superblock location	65536	id	[ 62811b1b 18556f4b ]
+ncg	4	size	7680	blocks	7335
+bsize	32768	shift	15	mask	0xffff8000
+fsize	4096	shift	12	mask	0xfffff000
+frag	8	shift	3	fsbtodb	3
+minfree	8%	optim	time	symlinklen 120
+maxbsize 32768	maxbpg	4096	maxcontig 32	contigsumsize 16
+nbfree	914	ndir	2	nifree	4091	nffree	20
+bpg	241	fpg	1928	ipg	1024	unrefs	0
+nindir	4096	inopb	128	maxfilesize	2252349704110079
+sbsize	4096	cgsize	4096	csaddr	104	cssize	4096
+sblkno	24	cblkno	32	iblkno	40	dblkno	104
+cgrotor	0	fmod	0	ronly	0	clean	0
+metaspace 72	avgfpdir 64	avgfilesize 16384
+flags	soft-updates 
+check hashes	superblock cylinder-groups inodes 
+fsmnt	/p1
+volname		swuid	0	providersize	7680
+
+cs[].cs_(nbfree,ndir,nifree,nffree):
+	(225,2,1019,20) (231,0,1024,0) (231,0,1024,0) (227,0,1024,0) 
+blocks in last group 237
+
+
+cg 0:
+magic	90255	tell	20000	time	Sun May 15 11:37:59 2022
+cgx	0	ndblk	1928	niblk	1024	initiblk 256	unrefs 0
+nbfree	225	ndir	2	nifree	1019	nffree	20
+rotor	0	irotor	5	frotor	128
+frsum	0	0	0	0	0	1	2
+sum of frsum: 20
+clusters 1-8:	0	0	0	0	0	0	0	0
+clusters 9-15:	0	0	0	0	0	0	0
+clusters size 16 and over: 1
+clusters free:	16-240
+inodes used:	0-4
+blks free:	106-111, 113-119, 121-1927
+
+cg 1:
+magic	90255	tell	7a8000	time	Sun May 15 11:36:58 2022
+cgx	1	ndblk	1928	niblk	1024	initiblk 256	unrefs 0
+nbfree	231	ndir	0	nifree	1024	nffree	0
+rotor	0	irotor	0	frotor	104
+frsum	0	0	0	0	0	0	0
+sum of frsum: 0
+clusters 1-8:	0	0	1	0	0	0	0	0
+clusters 9-15:	0	0	0	0	0	0	0
+clusters size 16 and over: 1
+clusters free:	0-2, 13-240
+inodes used:	
+blks free:	0-23, 104-1927
+
+cg 2:
+magic	90255	tell	f30000	time	Sun May 15 11:36:58 2022
+cgx	2	ndblk	1928	niblk	1024	initiblk 256	unrefs 0
+nbfree	231	ndir	0	nifree	1024	nffree	0
+rotor	0	irotor	0	frotor	104
+frsum	0	0	0	0	0	0	0
+sum of frsum: 0
+clusters 1-8:	0	0	1	0	0	0	0	0
+clusters 9-15:	0	0	0	0	0	0	0
+clusters size 16 and over: 1
+clusters free:	0-2, 13-240
+inodes used:	
+blks free:	0-23, 104-1927
+
+cg 3:
+magic	90255	tell	16b8000	time	Sun May 15 11:36:58 2022
+cgx	3	ndblk	1896	niblk	1024	initiblk 256	unrefs 0
+nbfree	227	ndir	0	nifree	1024	nffree	0
+rotor	0	irotor	0	frotor	104
+frsum	0	0	0	0	0	0	0
+sum of frsum: 0
+clusters 1-8:	0	0	1	0	0	0	0	0
+clusters 9-15:	0	0	0	0	0	0	0
+clusters size 16 and over: 1
+clusters free:	0-2, 13-236
+inodes used:	
+blks free:	0-23, 104-1895
